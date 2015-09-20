@@ -1,0 +1,3 @@
+(function(){angular.module('angular-meteor').run(['$templateCache', function($templateCache) {$templateCache.put("client/parties/views/parties-list.ng.html", "<form> <label>Name</label> <input ng-model=\"newParty.name\"> <label>Description</label> <input ng-model=\"newParty.description\"> <button ng-click=\"parties.push(newParty)\">Add</button> <button ng-click=\"removeAll()\">Remove All</button> </form> <ul> <li ng-repeat=\"party in parties\"> <a href=\"/parties/{{party._id}}\">{{party.name}}</a> <p>{{party.description}}</p> <button ng-click=\"remove(party)\">X</button> </li> </ul>");}]);
+
+})();
