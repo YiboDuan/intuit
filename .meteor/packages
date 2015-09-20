@@ -10,3 +10,6 @@ insecure
 urigo:angular
 http
 angularui:angular-ui-router
+twbs:bootstrap
+less
+angularui:angular-ui-bootstrap
